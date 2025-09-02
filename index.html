@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Treasures - Exquisite Jewelry Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-gem"></i> Jewelry Treasures</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Collections</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#search"><i class="fas fa-search"></i></a>
+                <a href="#cart"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                <a href="#account"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Discover Exquisite Jewelry Pieces</h2>
+            <p>Handcrafted with precision and love, our collection features the finest gems and precious metals</p>
+            <a href="#products" class="btn">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Collections</h2>
+            <div class="categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="rings">Rings</button>
+                <button class="category-btn" data-category="necklaces">Necklaces</button>
+                <button class="category-btn" data-category="earrings">Earrings</button>
+                <button class="category-btn" data-category="bracelets">Bracelets</button>
+            </div>
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Jewelry Treasures was founded in 2005 with a passion for creating exquisite jewelry pieces that tell a story. Our master jewelers combine traditional techniques with modern design to create timeless treasures.</p>
+                    <p>We source only the highest quality gemstones and precious metals, ensuring that each piece is not only beautiful but also made to last generations.</p>
+                    <a href="#contact" class="btn">Visit Our Store</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4TTDQxKB2T7PgmxBJQ3M8LF8fclm38Hgepg&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4TTDQxKB2T7PgmxBJQ3M8LF8fclm38Hgepg&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4TTDQxKB2T7PgmxBJQ3M8LF8fclm38Hgepg&s" alt="Jewelry craftsman at work">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"The necklace I purchased exceeded my expectations. The craftsmanship is exceptional, and I receive compliments every time I wear it."</p>
+                    <h4>Sarah Johnson</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"I've been a customer for years, and their jewelry continues to impress me. The quality is unmatched, and their customer service is exceptional."</p>
+                    <h4>Michael Thompson</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"The engagement ring I bought from Jewelry Treasures was perfect. My fiancée absolutely loves it, and I couldn't be happier with my purchase."</p>
+                    <h4>David Wilson</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visit Our Store</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Luxury Lane, Diamond District, NY 10001</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@jewelrytreasures.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sat: 10AM-7PM, Sun: 12PM-5PM</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="message-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-gem"></i> Jewelry Treasures</h3>
+                    <p>Exquisite jewelry for every occasion. Crafted with precision and passion.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Collections</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to receive updates on new collections and exclusive offers.</p>
+                    <form id="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Jewelry Treasures. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be loaded by JavaScript -->
+            </div>
+            <div class="cart-total">
+                <h3>Total: $<span id="cart-total-amount">0.00</span></h3>
+                <button class="btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
